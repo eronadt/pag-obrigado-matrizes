@@ -179,8 +179,7 @@
     /* 2. Vídeo do Tutorial */
     .video-wrapper {
       width: 100%;
-      max-width: 480px;
-      aspect-ratio: 1 / 1;
+      max-width: 560px;
       margin: 0 auto 26px;
       border-radius: 18px;
       border: 2px solid rgba(209, 191, 153, 0.45);
@@ -191,8 +190,6 @@
     }
 
     .video-wrapper iframe {
-      width: 100%;
-      height: 100%;
       border: none;
       display: block;
     }
@@ -588,14 +585,18 @@
 
       <!-- 2. Vídeo do Tutorial -->
       <section class="video-wrapper">
-        <iframe 
-          src="https://www.dailymotion.com/embed/video/kL60UamYRVDc57LVtJs?queue-enable=0&sharing-enable=0&ui-logo=0" 
-          frameborder="0" 
-          allow="autoplay; fullscreen; picture-in-picture; web-share" 
-          allowfullscreen 
-          title="Tutorial Passo a Passo">
-        </iframe>
+        <div style="padding:75% 0 0 0;position:relative;">
+          <iframe 
+            src="https://player.vimeo.com/video/1237313368?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            title="1019">
+          </iframe>
+        </div>
       </section>
+      <script src="https://player.vimeo.com/api/player.js"></script>
 
       <!-- Aviso Importante Computador / Celular -->
       <div class="alert-box">
